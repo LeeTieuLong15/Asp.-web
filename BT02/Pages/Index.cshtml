@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <hr />
+    <h2 style="color: red">Hello World! I'm Le Phuoc Hau</h2>
+    <hr />
+    <h3 style="color: blue">BANG CUU CHUONG</h3>
+
+        @for (int n = 2; n <= 9; n++)
+        {
+
+        <hr />
+                @for (int m = 1; m <= 9; m++)
+                {
+                    int b = m * n;
+                    <span>@n x @m = @b</span>
+                    <br />
+                }
+       
+           
+        }
+    
+</div>
