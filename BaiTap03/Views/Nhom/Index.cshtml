@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    header, footer {
+        background-color: #f8f9fa;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+</style>
+
+<header>
+    <h2>GIỚI THIỆU</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="~/trang-chu">Bản thân</a></li>
+            <li><a href="~/gioi-thieu-nhom">Nhóm</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Mã số sinh viên</th>
+                    <th>Họ và tên</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>001</td>
+                    <td>Le Phuoc Hau</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>002</td>
+                    <td>Nguyen Trung Hieu</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>003</td>
+                    <td>Hoang Le Tan</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+</section>
+
+<footer>
+    <p>Copyright © Le Phuoc Hau - @DateTime.Now.Year</p>
+</footer>
