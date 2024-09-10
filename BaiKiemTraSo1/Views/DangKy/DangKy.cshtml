@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "DangKy";
+
+}
+
+@model TaiKhoanViewModel
+
+<div class="container">
+    <h3>Đăng ký</h3>
+    <form method="post">
+        <label asp-for="Username">Tài khoản: </label>
+        <input asp-for="Username" type="text" class="form-control" />
+
+        <label asp-for="Password">Mật khẩu: </label>
+        <input asp-for="Password" type="password" class="form-control" />
+
+        <label asp-for="Name">Tên: </label>
+        <input asp-for="Name" type="text" class="form-control" />
+
+        <label asp-for="Age">Tuổi: </label>
+        <input asp-for="Age" type="text" class="form-control" />
+
+        <button type="submit" class="btn btn-primary">Send</button>
+
+        @if (Model != null)
+        {
+            <p>Username da nhap la: @Model.Username</p>
+            <p>Password da ma hoa da la: @Model.Password</p>
+            <p>Ten da nhap la: @Model.Name</p>
+            <p>Tuoi da nhap la: @Model.Age</p>
+        }
+
+        @if (ViewBag.Message != null)
+        {
+            <p>@ViewBag.Message</p>
+        }
+    </form>
+</div>

@@ -46,8 +46,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T07:50:33.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:50:33.59Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T07:50:24.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:50:24.587Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T07:50:22.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:50:22.352Z"
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:49:03.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:49:03.906Z"
             },
             {
               "$type": "Document",
@@ -94,9 +90,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiTap03\\Views\\Nhom\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Nhom\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiTap03\\Views\\Nhom\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Nhom\\Index.cshtml*",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiTap03\\Views\\Nhom\\Index.cshtml",
+              "RelativeToolTip": "Views\\Nhom\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwE4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-27T07:46:21.323Z",
               "EditorCaption": ""
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T07:39:10.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:39:10.812Z"
             }
           ]
         }
