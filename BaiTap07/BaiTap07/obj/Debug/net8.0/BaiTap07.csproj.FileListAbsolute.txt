@@ -1,0 +1,10 @@
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.csproj.AssemblyReference.cache
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.AssemblyInfoInputs.cache
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.AssemblyInfo.cs
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.csproj.CoreCompileInputs.cache
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.RazorAssemblyInfo.cache
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.RazorAssemblyInfo.cs
+D:\GitHub\ASPweb\Asp.-web\BaiTap07\BaiTap07\obj\Debug\net8.0\BaiTap07.sourcelink.json
