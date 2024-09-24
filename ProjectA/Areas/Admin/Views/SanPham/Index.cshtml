@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ProjectA.Models.SanPham>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Mô tả</th>
+                <th>Hình ảnh</th>
+                <th>Giá</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td><img src="@item.ImageUrl" width="50%" /></td>
+                    <td>@item.Price</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "SanPham", new { id = item.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("Delete", "SanPham", new { id = item.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

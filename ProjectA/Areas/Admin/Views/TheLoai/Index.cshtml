@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ProjectA.Models.TheLoai>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form asp-action="Search">
+    <div class="form-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Nhập thể loại cần tìm">
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+</form>
+
+<h1>Danh sách thể loại</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên thể loại</th>
+            <th>Ngày tạo</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.TheLoais)
+        {
+            <tr>
+                <td width="30%">
+                    @item.Name
+                </td>
+                <td width="30%">
+                    @item.DateCreated.ToString("dd/MM/yyyy")
+                </td>
+                <td width="40%">
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mt-3">
+    <a asp-action="Create" class="btn btn-secondary">Thêm mới</a>
+</div>

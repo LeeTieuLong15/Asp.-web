@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ProjectA.Models.TheLoai>
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Tên thể loại</th>
+      <th>Ngày tạo</th>
+      <th>Chức năng</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null && Model.Any())
+    {
+      @foreach (var item in Model)
+      {
+        <tr>
+          <td>@item.Name</td>
+          <td>@item.DateCreated</td>
+          <td>
+            </td>
+        </tr>
+      }
+    }
+    else
+    {
+      <tr>
+        <td colspan="3">Không tìm thấy kết quả nào</td>
+      </tr>
+    }
+  </tbody>
+</table>

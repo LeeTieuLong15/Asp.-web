@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BaiKiemTra02.Models.LopHoc>
+
+<h1>Danh sách lớp học</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên lớp học</th>
+            <th>Năm nhập học</th>
+            <th>Năm ra trường</th>
+            <th>Số lượng sinh viên</th>           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenLopHoc</td>
+                <td>@item.NamNhapHoc</td>
+                <td>@item.NamRaTruong</td>
+                <td>@item.SoLuongSinhVien</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Create" class="btn btn-success">Thêm mới</a>
