@@ -1,0 +1,39 @@
+﻿@model BaiKiemTra03_01.Models.NhanVien
+
+<div class="container">
+    <h3>Thêm nhân viên</h3>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="TenNhanVien">Tên nhân viên</label>
+            <input asp-for="TenNhanVien" type="text" class="form-control" />
+            <span asp-validation-for="TenNhanVien" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ChucVu">Chức vụ</label>
+            <input asp-for="ChucVu" type="text" class="form-control" />
+            <span asp-validation-for="ChucVu" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MaPhongBan">Mã phòng ban</label>
+            <select asp-for="MaPhongBan" class="form-control" asp-items="ViewBag.MaPhongBan"></select>
+            <span asp-validation-for="MaPhongBan" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NgayBatDauLamViec">Ngày bắt đầu làm việc</label>
+            <input asp-for="NgayBatDauLamViec" type="date" class="form-control" />
+            <span asp-validation-for="NgayBatDauLamViec" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Tạo mới</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

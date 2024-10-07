@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2AAFRz0h189p2bl1xfckuOE1bl5mKWlkK4LXRYjrJ+Y=",
+  "Hash": "lfGE1lTHOQxI8PWrr4wS+/r6uxBzr9hdAPm31I4YnrQ=",
   "Source": "ProjectA",
   "BasePath": "_content/ProjectA",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\GitHub\\ASPweb\\Asp.-web\\ProjectA\\wwwroot\\IMG\\SQL.png",
+      "SourceId": "ProjectA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\ASPweb\\Asp.-web\\ProjectA\\wwwroot\\",
+      "BasePath": "_content/ProjectA",
+      "RelativePath": "IMG/SQL.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\IMG\\SQL.png"
     },
     {
       "Identity": "D:\\GitHub\\ASPweb\\Asp.-web\\ProjectA\\wwwroot\\js\\site.js",

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\views\\phongban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\views\\phongban\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\views\\phongban\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\views\\phongban\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\views\\phongban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\views\\phongban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\controllers\\phongbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Views\\PhongBan\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Edit.cshtml",
+              "RelativeToolTip": "BaiKiemTra03_01\\Views\\PhongBan\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T09:38:20.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Views\\PhongBan\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Create.cshtml",
+              "RelativeToolTip": "BaiKiemTra03_01\\Views\\PhongBan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T09:35:14.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Views\\PhongBan\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\PhongBan\\Index.cshtml",
+              "RelativeToolTip": "BaiKiemTra03_01\\Views\\PhongBan\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T09:33:01.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "BaiKiemTra03_01\\Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:53:56.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "BaiKiemTra03_01\\Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:50:23.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Program.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Program.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Program.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:43:53.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\appsettings.json",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\appsettings.json",
+              "RelativeToolTip": "BaiKiemTra03_01\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T08:42:24.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhongBanController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Controllers\\PhongBanController.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Controllers\\PhongBanController.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Controllers\\PhongBanController.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Controllers\\PhongBanController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:37:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:36:54.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:28:25.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Models\\NhanVien.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Models\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:15:57.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241007083017_InitialCreate.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:30:17.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PhongBan.cs",
+              "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Models\\PhongBan.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra03_01\\Models\\PhongBan.cs",
+              "ToolTip": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Models\\PhongBan.cs",
+              "RelativeToolTip": "BaiKiemTra03_01\\Models\\PhongBan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:16:34.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

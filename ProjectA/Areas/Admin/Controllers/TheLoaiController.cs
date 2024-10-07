@@ -19,8 +19,8 @@ namespace ProjectA.Controllers
         public IActionResult Index()
         {
             var theLoai = _db.TheLoai.ToList();
-            ViewBag.TheLoai = theLoai;
-            return View();
+            ViewBag.TheLoai = theLoai;  
+            return View(theLoai);
         }
 
         // Thêm 
@@ -70,6 +70,7 @@ namespace ProjectA.Controllers
         }
 
         // Xóa
+
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -77,11 +78,13 @@ namespace ProjectA.Controllers
             {
                 return NotFound();
             }
+
             var theLoai = _db.TheLoai.Find(id);
             if (theLoai == null)
             {
                 return NotFound();
             }
+
             return View(theLoai);
         }
 
@@ -93,10 +96,13 @@ namespace ProjectA.Controllers
             {
                 return NotFound();
             }
+
             _db.TheLoai.Remove(theLoai);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+
 
         [HttpGet]
         public IActionResult Details(int id)

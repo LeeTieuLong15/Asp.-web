@@ -1,16 +1,19 @@
 ﻿@model ProjectA.Models.TheLoai
 
 <div class="container">
-    <h3>Xóa thể loại</h3>
-    <h4>Bạn có chắc chắn muốn xóa thể loại này?</h4>
-    <div>
-        <h5>@Model.Name</h5>
-        <p>Ngày tạo: @Model.DateCreated.ToString("dd/MM/yyyy")</p>
-    </div>
-    <form method="post" asp-action="DeleteConfirmed">
-        <input type="hidden" asp-for="Id" />
-        <button type="submit" class="btn btn-danger">Xóa</button>
-        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    <h3>Thêm thể loại</h3>
+    <div asp-validation-summary="All" class=" text-danger"></div>
+    <form method="post">
+
+        <label asp-for="Name">Tên thể loại</label>
+        <input asp-for="Name" type="text" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <br />
+        <label asp-for="DateCreated">Ngày tạo</label>
+        <input asp-for="DateCreated" type="date" class="form-control" />
+        <span asp-validation-for="DateCreated" class="text-danger"></span>
+        <br />
+        <button type="submit" class="btn btn-primary">Tạo mới</button>
     </form>
 </div>
 

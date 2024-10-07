@@ -1,8 +1,73 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<ProjectA.Models.SanPham>
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Mô tả</th>
+                    <th>Hình ảnh</th>
+                    <th>Giá</th>
+                    <th>Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td><img src="@item.ImageUrl" width="50%" /></td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>
+                                <a href="@Url.Action("Edit", "SanPham", new { id = item.Id })" class="btn btn-primary">Edit</a>
+                                <button class="btn btn-danger" onclick="deleteSanPham(@item.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5">Không có sản phẩm nào.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <img src="@item.ImageUrl" alt="@item.Name" />
+                        <h5>@item.Name</h5>
+                        <p>@item.Description</p>
+                        <p>@item.Price.ToString("C")</p>
+                        <button class="btn btn-success" onclick="addToFavorites(@item.Id)">Thêm vào mục yêu thích</button>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có sản phẩm nào để hiển thị.</p>
+        }
+    </div>
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<script>
+    function addToFavorites(id) {
+        alert("Sản phẩm " + id + " đã được thêm vào mục yêu thích!");
+    }
+
+</script>

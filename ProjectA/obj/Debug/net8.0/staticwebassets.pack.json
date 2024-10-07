@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ProjectA.bundle.scp.css"
     },
     {
+      "Id": "D:\\GitHub\\ASPweb\\Asp.-web\\ProjectA\\wwwroot\\IMG\\SQL.png",
+      "PackagePath": "staticwebassets\\IMG\\SQL.png"
+    },
+    {
       "Id": "D:\\GitHub\\ASPweb\\Asp.-web\\ProjectA\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

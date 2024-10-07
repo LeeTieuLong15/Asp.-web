@@ -29,20 +29,29 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in ViewBag.TheLoais)
+        @if (ViewBag.TheLoais != null)
+        {
+            @foreach (var item in ViewBag.TheLoai)
+            {
+                <tr>
+                    <td width="30%">
+                        @item.Name
+                    </td>
+                    <td width="30%">
+                        @item.DateCreated.ToString("dd/MM/yyyy")
+                    </td>
+                    <td width="40%">
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td width="30%">
-                    @item.Name
-                </td>
-                <td width="30%">
-                    @item.DateCreated.ToString("dd/MM/yyyy")
-                </td>
-                <td width="40%">
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
-                </td>
+                <td colspan="3">Không có thể loại nào.</td>
             </tr>
         }
     </tbody>
