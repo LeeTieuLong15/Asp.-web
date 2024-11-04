@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjectB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjectB.styles.css" asp-append-version="true" />
+    <style>
+        .search-form {
+            height: 32.5px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom box-shadow mb-3">
+            <div class="container">
+                <!-- Logo -->
+                <div class="header__logo">
+                    <h1>
+                        <a href="https://www.wheystore.vn/" title="WheyStore.vn" class="logo" rel="home">
+                            <img width="159" height="65" class="logo_img" src="https://www.wheystore.vn/images/config/logo_image_1695289760.png" alt="WheyStore.vn" />
+                        </a>
+                    </h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- Thanh tìm kiếm -->
+                    <form class="d-flex me-auto search-form" action="https://www.wheystore.vn/tim-kiem" method="get" onsubmit="javascript: submit_form_search();return false;">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input class="form-control me-2"
+                                           type="search"
+                                           placeholder="Tìm sản phẩm, tìm gì cũng thấy..."
+                                           aria-label="Search"
+                                           name="keyword"
+                                           id="keyword"
+                                           size="40">
+                                </td>
+                                <td>
+                                    <button class="btn btn-outline-success search-button" type="submit" style="width: 130px;">
+                                        Tìm kiếm
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+
+                    <!-- Danh mục -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Danh mục
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a class="dropdown-item" href="#">Glucosamine</a></li>
+                                <li><a class="dropdown-item" href="#">Calsium</a></li>
+                                <li><a class="dropdown-item" href="#">Omega 3</a></li>
+                                <li><a class="dropdown-item" href="#">Creatine</a></li>
+                                <li><a class="dropdown-item" href="#">BCAA/EAA</a></li>
+                                <li><a class="dropdown-item" href="#">Magnesium</a></li>
+                                <li><a class="dropdown-item" href="#">Protein</a></li>
+                                <li><a class="dropdown-item" href="#">Collagen</a></li>
+                                <li><a class="dropdown-item" href="#">ZinC</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+
+                </div>
+            </div>
+           
+        </nav>
+       
+    </header> 
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+    <footer class="bg-light text-dark text-center mt-5 py-4">
+        <div class="container">
+            <h2 class="font-weight-bold mb-4">Liên Hệ Chúng Tôi</h2>
+            <div class="social-media mb-4" style="display: flex; justify-content: center; gap: 100px;">
+                <a href="https://www.facebook.com/your-page" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="110" height="110" />
+                </a>
+                <a href="https://www.instagram.com/your-profile" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="110" height="110" />
+                </a>
+                <a href="https://www.youtube.com/your-channel" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="110" height="110" />
+                </a>
+                <a href="https://www.tiktok.com/your-profile" target="_blank">
+                    <img src="https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/32f2ab89bf0d9acee8ff3021890559a7.png" alt="TikTok" width="110" height="110" />
+                </a>
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <h4 class="font-weight-bold text-primary">Giới Thiệu</h4>
+                    <p class="text-muted">Tìm hiểu thêm về sản phẩm và những gì chúng tôi cung cấp để phục vụ bạn tốt nhất.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h4 class="font-weight-bold text-success">Dịch Vụ Khách Hàng</h4>
+                    <p class="text-muted">Chúng tôi luôn sẵn sàng hỗ trợ bạn với các câu hỏi và yêu cầu.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h4 class="font-weight-bold text-danger">Chính Sách Bảo Mật</h4>
+                    <p class="text-muted">Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn với các chính sách an toàn nhất.</p>
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+
+       
+    </footer>
+
+
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+

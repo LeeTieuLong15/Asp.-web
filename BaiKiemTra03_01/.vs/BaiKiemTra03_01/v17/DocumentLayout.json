@@ -47,12 +47,12 @@
       "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\models\\phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|d:\\github\\aspweb\\asp.-web\\baikiemtra03_01\\baikiemtra03_01\\data\\migrations\\20241007083017_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7E334-2320-4264-9C15-1BEC6A087864}|BaiKiemTra03_01\\BaiKiemTra03_01.csproj|solutionrelative:baikiemtra03_01\\data\\migrations\\20241007083017_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,8 +87,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Views\\PhongBan\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T09:35:14.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:35:14.764Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Views\\PhongBan\\Index.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T09:33:01.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:33:01.032Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Views\\NhanVien\\Create.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAowB4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T08:53:56.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:53:56.035Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Views\\NhanVien\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T08:50:23.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:50:23.21Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:43:53.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:43:53.074Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-07T08:42:24.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:42:24.386Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Controllers\\PhongBanController.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAAAgwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:37:32.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:37:32.961Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Controllers\\NhanVienController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAswIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:36:54.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:36:54.11Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:28:25.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:28:25.713Z"
             },
             {
               "$type": "Document",
@@ -204,12 +195,11 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Models\\NhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:15:57.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:15:57.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20241007083017_InitialCreate.cs",
               "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
               "RelativeDocumentMoniker": "BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
@@ -217,12 +207,11 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Data\\Migrations\\20241007083017_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:30:17.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:30:17.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "PhongBan.cs",
               "DocumentMoniker": "D:\\GitHub\\ASPweb\\Asp.-web\\BaiKiemTra03_01\\BaiKiemTra03_01\\Models\\PhongBan.cs",
               "RelativeDocumentMoniker": "BaiKiemTra03_01\\Models\\PhongBan.cs",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "BaiKiemTra03_01\\Models\\PhongBan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T08:16:34.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T08:16:34.542Z"
             }
           ]
         }
